@@ -1,0 +1,33 @@
+
+body{
+  margin: 0;
+}
+
+.intro{
+  background-color: #0A0D2F;
+}
+
+ .intro p{
+  color: #FBC2B5;
+  margin: auto;
+  font-size: 50px;
+  max-width: 500px;
+  text-align: center;
+  padding: 100px 0px;
+  line-height: 120%;
+  font-family: 'Yatra One', cursive;
+}
+
+.baby-pic{
+ border: 4px brown groove;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #0A0D2F;
+ border-radius: 20px;
+}
+
+.baby{
+  background-color: #0A0D2F;
+  padding-bottom: 50px;
+}
