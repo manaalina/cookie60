@@ -1,6 +1,7 @@
 
 body{
   margin: 0;
+  background-color: #0A0D2F
 }
 
 .intro{
@@ -19,15 +20,10 @@ body{
 }
 
 .baby-pic{
- border: 4px brown groove;
  display: block;
  margin-left: auto;
  margin-right: auto;
  background-color: #0A0D2F;
  border-radius: 20px;
-}
-
-.baby{
-  background-color: #0A0D2F;
-  padding-bottom: 50px;
+ margin-bottom: 50px;
 }
