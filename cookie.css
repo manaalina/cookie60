@@ -1,7 +1,6 @@
 
 body{
   margin: 0;
-  background-color: #0A0D2F
 }
 
 .intro{
@@ -9,13 +8,12 @@ body{
 }
 
 .flowers-1{
-  position: fixed;
-  z-index: 1;
-  left: 500px;
+  position: absolute;
+  left: 25%;
 }
 
 .flowers-2{
-  position: fixed;
+  position: absolute;
   z-index: 1;
   top: 200px;
   right: 500px;
@@ -27,10 +25,11 @@ body{
   font-size: 50px;
   max-width: 500px;
   text-align: center;
-  padding: 100px 0px;
+  padding: 50px 0px;
   line-height: 120%;
   font-family: 'Yatra One', cursive;
 }
+
 
 .baby-pic{
  display: block;
