@@ -25,8 +25,8 @@ section{
   right: -40%;
 }
 
- .intro p{
-  padding: 50px;
+ .intro p {
+  padding: 30px;
   color: #FBC2B5;
   margin: auto;
   font-size: 50px;
@@ -54,7 +54,6 @@ section{
 }
 
 .second-section {
-    height: 1000px;
     max-width: 100%;
     background-color: #E0B1CB;
     position: relative;
@@ -62,7 +61,6 @@ section{
 }
 
 .second-article{
-  padding: 25px;
   color: #FB775F;
   max-width: 700px;
   margin: auto;
@@ -71,8 +69,12 @@ section{
   font-family: 'Yatra One', cursive;
 }
 
+.article .second-article{
+  margin: 20px;
+}
+
 .sixty{
-  font-size: 100px;
+  font-size: 150px;
 }
 
 #confetti-container{
