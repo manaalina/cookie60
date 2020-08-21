@@ -53,10 +53,12 @@ section{
   padding-bottom: 75px;
 }
 
-.second-section{
-  height: 1000px;
-  max-width: 100%;
-  background-color: #E0B1CB;
+.second-section {
+    height: 1000px;
+    max-width: 100%;
+    background-color: #E0B1CB;
+    position: relative;
+    overflow: hidden;
 }
 
 .second-article{
@@ -74,10 +76,15 @@ section{
 }
 
 #confetti-container{
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1001;
+    background: transparent;
 }
+
 
 .confetti{
   height: 10px;
