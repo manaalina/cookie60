@@ -118,3 +118,48 @@ section, .homepage{
   grid-column-start: 2;
   grid-column-end: 4;
 }
+
+.letter-body{
+  background-color: #778DA9;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.letter-heading{
+  font-family: 'Parisienne', cursive;
+  font-size: 96px;
+  color: #FBC2B5;
+  text-align: center;
+}
+
+.letter{
+  align-self: flex-start;
+  margin: 40px auto;
+}
+
+.photo-body{
+  background-color: #E0B1CB;
+}
+
+.photo-heading{
+  font-family: 'Parisienne', cursive;
+  font-size: 96px;
+  color: #0A0D2F;
+  text-align: center;
+}
+
+.video-background{
+  background-color: #0A0D2F;
+}
+
+.backtohome{
+  font-family: 'Parisienne', cursive;
+  font-size: 48px;
+  color: #FFFFFF;
+  display: block;
+  margin-left: 50px;
+}
