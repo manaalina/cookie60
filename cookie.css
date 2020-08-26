@@ -3,7 +3,7 @@ body{
   margin: 0;
 }
 
-section{
+section, .homepage{
   background-color: #0A0D2F;
 }
 
