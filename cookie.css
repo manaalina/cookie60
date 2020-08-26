@@ -113,3 +113,8 @@ section, .homepage{
   max-width: 100%;
   display: block;
 }
+
+.stayinalive{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
