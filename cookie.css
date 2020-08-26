@@ -105,5 +105,11 @@ section, .homepage{
   grid-template-columns: auto auto auto;
   grid-auto-rows: auto auto;
   grid-column-gap: 20px;
-  grid-row-gap: 100px;
+  grid-row-gap: 50px;
+  padding: 50px;
+}
+
+.home-page-image{
+  max-width: 100%;
+  display: block;
 }
