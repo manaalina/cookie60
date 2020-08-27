@@ -101,13 +101,13 @@ section, .homepage{
 }
 
 .homepage{
-  max-width: 92%;
   padding: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .inside-homepage{
+  max-width: 92%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: auto auto;
