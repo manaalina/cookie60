@@ -102,21 +102,28 @@ section, .homepage{
 }
 
 .homepage{
-  padding: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 100px 0;
 }
 
 .inside-homepage{
   max-width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepage-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: auto auto;
-  grid-column-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 50px;
   grid-row-gap: 50px;
 }
 
-.homepage-image{
+.homepage-image {
+  display: flex;
+}
+
+.homepage-image img {
   max-width: 100%;
   display: block;
 }
@@ -169,4 +176,19 @@ section, .homepage{
   color: #FFFFFF;
   display: block;
   margin-left: 50px;
+}
+
+.nightvideo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1001;
+}
+
+.fam-love-vid{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
