@@ -14,7 +14,6 @@ section, .homepage{
   margin: 0 auto;
   padding-top: 150px;
   width: 100vw;
-  overflow-x: hidden;
 }
 
 .flowers-1{
@@ -121,9 +120,6 @@ section, .homepage{
   grid-row-gap: 50px;
 }
 
-.homepage-image {
-  display: flex;
-}
 
 .homepage-image img {
   max-width: 100%;
