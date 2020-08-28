@@ -10,9 +10,11 @@ section, .homepage{
 
 .intro{
   position: relative;
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
   padding-top: 150px;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .flowers-1{
