@@ -189,3 +189,17 @@ section, .homepage{
   margin-right: auto;
   position: relative;
 }
+
+.photo-body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photobook{
+  align-self: flex-start;
+  margin: 40px auto;
+  max-width: 100%
+}
