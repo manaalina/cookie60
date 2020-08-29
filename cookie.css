@@ -207,3 +207,9 @@ section, .homepage{
 .fix-width{
   max-width: 100%;
 }
+
+@media (max-width: 767px){
+  .flower-1, .flower-2{
+    display:none;
+  }
+}
