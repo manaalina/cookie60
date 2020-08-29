@@ -209,7 +209,7 @@ section, .homepage{
 }
 
 @media (max-width: 767px){
-  .flower-1, .flower-2{
+  .flowers-1, .flowers-2{
     display:none;
   }
 }
