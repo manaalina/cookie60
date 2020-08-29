@@ -203,3 +203,7 @@ section, .homepage{
   margin: 40px auto;
   max-width: 100%
 }
+
+.fixed-width{
+  max-width: 100%;
+}
